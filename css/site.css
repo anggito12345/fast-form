@@ -1,0 +1,48 @@
+#img_welcom{
+    background: url('../images/image_welcome.jpg') center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.back_text{
+
+    background: #000000;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 0;
+
+}
+
+body{
+    height: 100%;
+}
+.wrap{
+    width: 90%;
+    margin: auto;
+}
+
+
+.footer{
+    margin-top:20px; 
+    width: 100%;
+    background-color: #6d798c;
+    color:#FFFFFF;
+}
+
+
+/* Flatten das boostrap */
+.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
+    -moz-box-shadow: none !important;
+   -webkit-box-shadow: none !important;
+   box-shadow: none !important;
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   border-radius: 0px !important;
+   border-collapse: collapse !important;
+   background-image: none !important;
+}
